@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Tags({ tagsToUse }) {
 	return (
-		<ul className='w-full flex flex-wrap gap-2 justify-center items-center'>
+		<ul className='w-full flex flex-wrap gap-x-2 gap-y-4 justify-center items-center'>
 			{tagsToUse.map(categorie => {
 				return (
 					<li key={categorie.id}>

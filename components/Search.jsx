@@ -11,9 +11,9 @@ export default function Sarch() {
 	console.log(allCategories)
 
 	return (
-		<section className='px-8 w-[600px] gap-8 flex flex-col justify-center items-center md:sticky top-[122px]'>
+		<section className='px-8 gap-8 flex flex-col-reverse justify-center items-center md:sticky top-[122px]'>
 			<article className='flex flex-col gap-4 justify-center items-center p-4 min-h-[10rem] w-full bg-slate-100 rounded-lg'>
-				<div className='w-full flex flex-col justify-center items-center gap-2'>
+				<div className='text-center w-full flex flex-col justify-center items-center gap-2'>
 					<span className='w-12 h-1 bg-[#e83d42]' />
 					<h2 className='text-2xl text-neutral-700'>Categorías Disponibles</h2>
 				</div>
@@ -37,7 +37,7 @@ export default function Sarch() {
 			</article>
 
 			<article className='flex flex-col gap-4 justify-center items-center p-4 min-h-[10rem] w-full bg-slate-100 rounded-lg'>
-				<div className='w-full flex flex-col justify-center items-center gap-2'>
+				<div className='text-center w-full flex flex-col justify-center items-center gap-2'>
 					<span className='w-12 h-1 bg-[#e83d42]' />
 					<h2 className='text-2xl text-neutral-700'>Contáctenos</h2>
 				</div>

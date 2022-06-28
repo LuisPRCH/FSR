@@ -9,10 +9,10 @@ export default function categoria() {
 	const { singleCategory } = useQuery(slug)
 
 	return (
-		<>
+		<div className='font-Ubuntu flex flex-col w-screen'>
 			{!singleCategory[0] ? null : (
 				<CategoryPage objectToUse={singleCategory} />
 			)}
-		</>
+		</div>
 	)
 }
