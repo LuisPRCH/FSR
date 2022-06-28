@@ -1,6 +1,6 @@
 export default function Footer() {
 	return (
-		<footer className='p-4 w-full gap-4 bg-gray-800 flex justify-between items-center flex-col md:flex-row'>
+		<footer className='absolute bottom-[-1px] p-4 w-full gap-4 bg-gray-800 flex justify-between items-center flex-col md:flex-row'>
 			<h2 className='text-white'>Ferretería San Rafael</h2>
 			<ul className='text-sm text-gray-400 flex justify-center items-center gap-4'>
 				<li>

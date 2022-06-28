@@ -7,7 +7,7 @@ export default function CartOfProduct({ productToUse }) {
 		<motion.div
 			whileHover={{ y: -5 }}
 			animate={{ opacity: 1 }}
-			className={`relative opacity-0 w-[360px] h-[460px] rounded-md overflow-hidden flex justify-between items-start flex-col ${
+			className={`gap-2 relative opacity-0 w-[360px] rounded-md overflow-hidden flex justify-between items-start flex-col ${
 				productToUse.destacado ? 'border-[1px] border-[#0d4899]' : null
 			} `}
 		>
