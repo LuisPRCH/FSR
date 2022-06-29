@@ -27,6 +27,11 @@ export default function Nav() {
 						Catálogo
 					</Link>
 				</motion.li>
+				<motion.li whileHover={{ scale: 1.05 }}>
+					<Link className='text-neutral-700' href='/contacto'>
+						Contáctanos
+					</Link>
+				</motion.li>
 			</ul>
 		</motion.nav>
 	)

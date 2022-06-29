@@ -1,15 +1,16 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { HomePage } from '../components'
+import { HomePage, WhatsAppWidget } from '../components'
 
 const Home: NextPage = () => {
 	return (
-		<div className='font-Ubuntu min-h-screen absolute top-0 left-0 pb-[92px] md:pb-[55px]'>
+		<div className='font-Ubuntu min-h-screen absolute top-0 left-0'>
 			<Head>
 				<title>Create Next App</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<HomePage />
+			<WhatsAppWidget />
 		</div>
 	)
 }
