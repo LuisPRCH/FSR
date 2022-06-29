@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export default function CategoryPage({ objectToUse }) {
 	return (
-		<div className='min-h-screen absolute top-0 left-0 pb-[92px] md:pb-[55px]'>
+		<div className='min-h-screen w-full absolute top-0 left-0 pb-[92px] md:pb-[55px]'>
 			<Nav />
 			<HeaderOfCategory title={objectToUse[0].node.nombre} />
 			<motion.main
