@@ -2,6 +2,7 @@ import useQuery from '../hooks/useQuery'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Tags from './Tags'
+import Image from 'next/image'
 
 export default function MoreProducts() {
 	const { allProducts } = useQuery()
@@ -41,12 +42,16 @@ export default function MoreProducts() {
 									</svg>
 								</div>
 							) : null}
-							<Link href={`/producto/${allProducts[ramdomNum].node.slug}`}>
-								<img
-									className='cursor-pointer'
-									src={allProducts[ramdomNum].node.imagen.url}
-									alt={allProducts[ramdomNum].node.nombre}
-								/>
+							<Link  href={`/producto/${allProducts[ramdomNum].node.slug}`}>
+								
+									<Image
+										width={allProducts[ramdomNum].node.imagen.width}
+										height={allProducts[ramdomNum].node.imagen.height}
+										className='cursor-pointer'
+										src={allProducts[ramdomNum].node.imagen.url}
+										alt={allProducts[ramdomNum].node.nombre}
+									/>
+								
 							</Link>
 							<Tags tagsToUse={allProducts[ramdomNum].node.categorias} />
 							<div className='flex w-full items-center gap-2'>

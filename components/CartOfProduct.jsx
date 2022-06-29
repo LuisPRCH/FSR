@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { Tags } from '../components'
+import Image from 'next/image'
 
 export default function CartOfProduct({ productToUse }) {
 	return (
@@ -31,12 +32,16 @@ export default function CartOfProduct({ productToUse }) {
 					</svg>
 				</div>
 			) : null}
-			<Link href={`/producto/${productToUse.slug}`}>
-				<img
-					className='cursor-pointer'
-					src={productToUse.imagen.url}
-					alt={productToUse.nombre}
-				/>
+			<Link passHref href={`/producto/${productToUse.slug}`}>
+				<a>
+					<Image
+						width={productToUse.imagen.width}
+						height={productToUse.imagen.height}
+						className='cursor-pointer'
+						src={productToUse.imagen.url}
+						alt={productToUse.nombre}
+					/>
+				</a>
 			</Link>
 			<Tags tagsToUse={productToUse.categorias} />
 			<div className='flex w-full items-center gap-2'>

@@ -25,6 +25,8 @@ export default function useQuery(slug = 'pistola-engrapadora') {
             slug
             imagen {
               url
+              width
+              height
             }
           }
         }
@@ -47,6 +49,8 @@ export default function useQuery(slug = 'pistola-engrapadora') {
             slug
             imagen {
               url
+              width
+              height
             }
             categorias {
               nombre
@@ -84,6 +88,8 @@ export default function useQuery(slug = 'pistola-engrapadora') {
             }
             imagen {
               url
+              width
+              height
             }
             slug
           }
@@ -138,6 +144,8 @@ export default function useQuery(slug = 'pistola-engrapadora') {
             }
             imagen {
               url
+              width
+              height
             }
           }
         }
@@ -155,6 +163,8 @@ export default function useQuery(slug = 'pistola-engrapadora') {
             slug
             imagen {
               url
+              width
+              height
             }
             productos {
               codigo
@@ -171,6 +181,8 @@ export default function useQuery(slug = 'pistola-engrapadora') {
               slug
               imagen {
                 url
+                width
+                height
               }
             }
           }

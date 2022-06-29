@@ -1,5 +1,6 @@
 import { Nav, Footer, MoreProducts, Tags } from './index'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 export default function ProductPage({ objectToUse }) {
 	return (
@@ -44,7 +45,9 @@ export default function ProductPage({ objectToUse }) {
 						/>
 					</div>
 					<section className='w-full max-w-[700px] min-h-[10rem] flex justify-center items-center'>
-						<img
+						<Image
+							width={objectToUse[0].node.imagen.width}
+							height={objectToUse[0].node.imagen.height}
 							className='h-full max-h-[500px]'
 							src={objectToUse[0].node.imagen.url}
 							alt={objectToUse[0].node.nombre}

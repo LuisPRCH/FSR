@@ -1,18 +1,23 @@
-import { Link } from '@mui/material'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function WhatsAppWidget() {
 	return (
 		<motion.div
 			whileHover={{ scale: 1.05 }}
-			className='fixed bottom-4 right-4 w-[70px] cursor-pointer'
+			className='fixed bottom-4 right-4 w-[50px] cursor-pointer'
 			title='WhatsApp'
 		>
-			<Link href='#'>
-				<img
-					src='https://media.graphassets.com/FBQy6QhtSySLS2oPzXKw'
-					alt='WhatsApp'
-				/>
+			<Link passHref href='#'>
+				<a>
+					<Image
+						width={101}
+						height={101}
+						src='https://media.graphassets.com/FBQy6QhtSySLS2oPzXKw'
+						alt='WhatsApp'
+					/>
+				</a>
 			</Link>
 		</motion.div>
 	)
