@@ -14,7 +14,7 @@ export default function WhatsAppWidget() {
 					<Image
 						width={101}
 						height={101}
-						src='https://media.graphassets.com/FBQy6QhtSySLS2oPzXKw'
+						src='https://media.graphassets.com/E2xWXa1qS9aIfsUvr0m7'
 						alt='WhatsApp'
 					/>
 				</a>

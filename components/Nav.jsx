@@ -17,7 +17,7 @@ export default function Nav() {
 						width={180}
 						height={58}
 						className='cursor-pointer'
-						src='https://media.graphassets.com/75LwnmxVT0mory3n2s6x'
+						src='https://media.graphassets.com/l8Nv7mkQaGD26qsIXC61'
 						alt='Feretería San Rafael'
 					/>
 				</a>
