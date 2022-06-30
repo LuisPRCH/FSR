@@ -1,9 +1,9 @@
 export default function Footer() {
 	return (
-		<footer className='text-center lg:text-left bg-gray-100 text-gray-600'>
+		<footer className='text-center lg:text-left bg-gray-100 text-[#333]'>
 			<div className='flex justify-center items-center lg:justify-between p-6 border-b border-gray-300'>
 				<div className='flex justify-center'>
-					<a href='#!' className='mr-6 text-gray-600'>
+					<a href='#!' className='mr-6 text-[#333]'>
 						<svg
 							aria-hidden='true'
 							focusable='false'
@@ -20,7 +20,7 @@ export default function Footer() {
 							></path>
 						</svg>
 					</a>
-					<a href='#!' className='mr-6 text-gray-600'>
+					<a href='#!' className='mr-6 text-[#333]'>
 						<svg
 							aria-hidden='true'
 							focusable='false'
@@ -37,7 +37,7 @@ export default function Footer() {
 							></path>
 						</svg>
 					</a>
-					<a href='#!' className='mr-6 text-gray-600'>
+					<a href='#!' className='mr-6 text-[#333]'>
 						<svg
 							aria-hidden='true'
 							focusable='false'
@@ -54,7 +54,7 @@ export default function Footer() {
 							></path>
 						</svg>
 					</a>
-					<a href='#!' className='mr-6 text-gray-600'>
+					<a href='#!' className='mr-6 text-[#333]'>
 						<svg
 							aria-hidden='true'
 							focusable='false'
@@ -71,7 +71,7 @@ export default function Footer() {
 							></path>
 						</svg>
 					</a>
-					<a href='#!' className='mr-6 text-gray-600'>
+					<a href='#!' className='mr-6 text-[#333]'>
 						<svg
 							aria-hidden='true'
 							focusable='false'
@@ -88,7 +88,7 @@ export default function Footer() {
 							></path>
 						</svg>
 					</a>
-					<a href='#!' className='text-gray-600'>
+					<a href='#!' className='text-[#333]'>
 						<svg
 							aria-hidden='true'
 							focusable='false'
@@ -149,22 +149,22 @@ export default function Footer() {
 							Servicios
 						</h6>
 						<p className='mb-4'>
-							<a href='#!' className='text-gray-600'>
+							<a href='#!' className='text-[#333]'>
 								Herramientas Eléctricas
 							</a>
 						</p>
 						<p className='mb-4'>
-							<a href='#!' className='text-gray-600'>
+							<a href='#!' className='text-[#333]'>
 								Cerrajeria
 							</a>
 						</p>
 						<p className='mb-4'>
-							<a href='#!' className='text-gray-600'>
+							<a href='#!' className='text-[#333]'>
 								Fontanería
 							</a>
 						</p>
 						<p>
-							<a href='#!' className='text-gray-600'>
+							<a href='#!' className='text-[#333]'>
 								Agregados
 							</a>
 						</p>
@@ -174,22 +174,22 @@ export default function Footer() {
 							Links Utiles
 						</h6>
 						<p className='mb-4'>
-							<a href='#!' className='text-gray-600'>
+							<a href='#!' className='text-[#333]'>
 								Contáctanos
 							</a>
 						</p>
 						<p className='mb-4'>
-							<a href='#!' className='text-gray-600'>
+							<a href='#!' className='text-[#333]'>
 								Catálogo
 							</a>
 						</p>
 						<p className='mb-4'>
-							<a href='#!' className='text-gray-600'>
+							<a href='#!' className='text-[#333]'>
 								Destacados
 							</a>
 						</p>
 						<p>
-							<a href='#!' className='text-gray-600'>
+							<a href='#!' className='text-[#333]'>
 								Inicio
 							</a>
 						</p>
@@ -276,7 +276,7 @@ export default function Footer() {
 			<div className='text-center p-6 bg-gray-200'>
 				<span>© 2022 Copyright: </span>
 				<a
-					className='text-gray-600 font-semibold'
+					className='text-[#333] font-semibold'
 					href='#!'
 				>
 					Ferretería San Rafael

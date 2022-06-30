@@ -55,7 +55,7 @@ export default function MoreProducts() {
 							</Link>
 							<Tags tagsToUse={allProducts[ramdomNum].node.categorias} />
 							<div className='flex w-full items-center gap-2'>
-								<h2 className='ml-6 text-xl text-neutral-700'>
+								<h2 className='ml-6 text-xl text-[#333]'>
 									{allProducts[ramdomNum].node.nombre}
 								</h2>
 								<svg
@@ -74,7 +74,7 @@ export default function MoreProducts() {
 							<h4 className='ml-6 text-sm text-[#0f1727be] uppercase tracking-[1px]'>
 								{allProducts[ramdomNum].node.codigo}
 							</h4>
-							<div className='px-6 border-t-2 border-[#07245616] text-neutral-700 font-medium h-[60px] w-full flex justify-start items-center'>
+							<div className='px-6 border-t-2 border-[#07245616] text-[#333] font-medium h-[60px] w-full flex justify-start items-center'>
 								<h3>{`₡ ${allProducts[ramdomNum].node.precio} i.v.a`}</h3>
 							</div>
 						</motion.div>

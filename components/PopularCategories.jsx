@@ -10,7 +10,7 @@ export default function PopularCategories() {
 		<section className='w-full min-h-[576px] p-8 flex flex-col justify-start items-center gap-8'>
 			<div className='text-center w-full flex flex-col justify-center items-center gap-4'>
 				<span className='w-12 h-1 bg-[#e83d42]' />
-				<h2 className='text-3xl text-neutral-700'>Lo Más Visitado</h2>
+				<h2 className='text-3xl text-[#333]'>Lo Más Visitado</h2>
 			</div>
 
 			<article className='flex flex-wrap w-full justify-center items-center gap-8'>

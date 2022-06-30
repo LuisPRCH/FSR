@@ -15,7 +15,7 @@ export default function Sarch() {
 			<article className='flex flex-col gap-4 justify-center items-center p-4 min-h-[10rem] w-full bg-slate-100 rounded-lg'>
 				<div className='text-center w-full flex flex-col justify-center items-center gap-2'>
 					<span className='w-12 h-1 bg-[#e83d42]' />
-					<h2 className='text-2xl text-neutral-700'>Categorías Disponibles</h2>
+					<h2 className='text-2xl text-[#333]'>Categorías Disponibles</h2>
 				</div>
 				<ul className='w-full flex flex-wrap gap-y-4 gap-x-3 justify-center items-center'>
 					{allCategories.map(categorie => {
@@ -24,7 +24,7 @@ export default function Sarch() {
 								<Link href={`/categoria/${categorie.node.slug}`}>
 									<motion.span
 										whileHover={{ y: -3, scale: 1.05 }}
-										className='font-light text-sm tracking-[1px] px-[0.75rem] py-[0.375rem] rounded-3xl bg-[#07245616] text-[#0f172773] transition-colors hover:bg-[#e83d42] hover:text-white cursor-pointer'
+										className='font-light text-sm tracking-[1px] px-[0.75rem] py-[0.375rem] rounded-3xl bg-[#07245616] text-[#333] transition-colors hover:bg-[#e83d42] hover:text-white cursor-pointer'
 									>
 										{categorie.node.nombre}
 									</motion.span>
@@ -39,7 +39,7 @@ export default function Sarch() {
 			<article className='flex flex-col gap-4 justify-center items-center p-4 min-h-[10rem] w-full bg-slate-100 rounded-lg'>
 				<div className='text-center w-full flex flex-col justify-center items-center gap-2'>
 					<span className='w-12 h-1 bg-[#e83d42]' />
-					<h2 className='text-2xl text-neutral-700'>Contáctenos</h2>
+					<h2 className='text-2xl text-[#333]'>Contáctenos</h2>
 				</div>
 				<div className='text-center'>
 					<p>¿Desea ser atendido de forma preferente?</p>

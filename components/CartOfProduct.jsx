@@ -13,7 +13,7 @@ export default function CartOfProduct({ productToUse }) {
 			} `}
 		>
 			{productToUse.destacado ? (
-				<div className='absolute top-6 left-0 w-6 py-1 bg-[#0d4899] flex justify-center rounded-r'>
+				<div className='z-[10] absolute top-6 left-0 w-6 py-1 bg-[#0d4899] flex justify-center rounded-r'>
 					<svg
 						clipRule='evenodd'
 						fillRule='evenodd'
@@ -45,7 +45,7 @@ export default function CartOfProduct({ productToUse }) {
 			</Link>
 			<Tags tagsToUse={productToUse.categorias} />
 			<div className='flex w-full items-center gap-2'>
-				<h2 className='ml-6 text-xl text-neutral-700'>{productToUse.nombre}</h2>
+				<h2 className='ml-6 text-xl text-[#333]'>{productToUse.nombre}</h2>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
 					width='16'
@@ -56,13 +56,13 @@ export default function CartOfProduct({ productToUse }) {
 					<path d='M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z' />
 				</svg>
 			</div>
-			<h5 className='ml-6 text-sm text-[#0f172773]'>
+			<h5 className='ml-6 text-sm text-[#999]'>
 				{productToUse.publicado}
 			</h5>
-			<h4 className='ml-6 text-sm text-[#0f1727be] uppercase tracking-[1px]'>
+			<h4 className='ml-6 text-sm text-[#333] uppercase tracking-[1px]'>
 				{productToUse.codigo}
 			</h4>
-			<div className='px-6 border-t-2 border-[#07245616] text-neutral-700 font-medium h-[60px] w-full flex justify-start items-center'>
+			<div className='px-6 border-t-2 border-[#07245616] text-[#333] font-medium h-[60px] w-full flex justify-start items-center text-xl'>
 				<h3>{`₡ ${productToUse.precio} i.v.a`}</h3>
 			</div>
 		</motion.div>
