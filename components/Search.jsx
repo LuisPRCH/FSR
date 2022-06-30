@@ -21,7 +21,7 @@ export default function Sarch() {
 					{allCategories.map(categorie => {
 						return (
 							<li key={categorie.node.id}>
-								<Link href={`/categoria/${categorie.node.slug}`}>
+								<Link href={`/categoria/${categorie.node.slug}`} scroll={false}>
 									<motion.span
 										whileHover={{ y: -3, scale: 1.05 }}
 										className='font-light text-sm tracking-[1px] px-[0.75rem] py-[0.375rem] rounded-3xl bg-[#07245616] text-[#333] transition-colors hover:bg-[#e83d42] hover:text-white cursor-pointer'
