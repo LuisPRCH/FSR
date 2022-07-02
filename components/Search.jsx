@@ -8,8 +8,6 @@ const MAX = 100000
 export default function Sarch() {
 	const { allCategories } = useQuery()
 
-	console.log(allCategories)
-
 	return (
 		<section className='px-8 gap-8 flex flex-col-reverse justify-center items-center md:sticky top-[122px] mb-8'>
 			<article className='flex flex-col gap-4 justify-center items-center p-4 min-h-[10rem] w-full bg-slate-100 rounded-lg'>
