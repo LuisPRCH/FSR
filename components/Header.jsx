@@ -9,7 +9,7 @@ export default function Header({
 	return (
 		<motion.header
 			animate={{ opacity: [0, 1], y: [50, 0] }}
-			className="mt-[135px] opacity-0 relative bg-[url('/_next/static/media/img-header.6a05829c.webp')] bg-cover bg-left w-full h-[250px] flex justify-center items-center sm:h-[500px] md:mt-[92px]"
+			className="mt-[135px] opacity-0 relative bg-[url('https://media.graphassets.com/T04RbgjzSsScg07fziCF')] bg-cover bg-left w-full h-[250px] flex justify-center items-center sm:h-[500px] md:mt-[92px]"
 		>
 			<div className='w-full h-full absolute top-0 left-0 bg-gradient-to-r from-[#00000055] to-[#00000055] px-8 gap-6 flex flex-col justify-center items-center'>
 				<motion.h2

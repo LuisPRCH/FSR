@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { HomePage, WhatsAppWidget } from '../components'
-import imgheader from '../public/img-header.webp'
 
 const Home: NextPage = () => {
 	return (
